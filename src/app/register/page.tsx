@@ -145,7 +145,7 @@ const RegisterPage = () => {
                             <input
                                 type="password"
                                 id="confirmPassword"
-                                value={email}
+                                value={confirmPassword}
                                 onChange={(e) => setConfirmPassword(e.target.value)}
                                 required
                                 className="border-2 outline-none sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 bg-gray-600 border-gray-500 placeholder-gray-400 text-white"
